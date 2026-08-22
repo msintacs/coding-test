@@ -1,0 +1,12 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java
+out/
+*.class
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
