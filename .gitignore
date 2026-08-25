@@ -1,5 +1,7 @@
 # IntelliJ IDEA
 .idea/
+docs/
+AGENTS.md
 *.iml
 
 # Java
