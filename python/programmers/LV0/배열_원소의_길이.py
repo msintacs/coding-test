@@ -2,11 +2,8 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/120854
 
 def solution(strlist):
-    answer = []
 
-    for text in strlist:
-        answer.append(len(text))
-
+    answer = [len(text) for text in strlist]
     return answer
 
 
