@@ -39,7 +39,7 @@ public class 무인도_여행 {
 
             for (int r=0; r<n; r++) {
                 for (int c=0; c<m; c++) {
-                    if (grid[r][c] == 'X') continue;;
+                    if (grid[r][c] == 'X') continue;
                     if (visited[r][c]) continue;
 
                     sums.add(bfs(r, c));
